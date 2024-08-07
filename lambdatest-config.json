@@ -1,0 +1,38 @@
+{
+   "lambdatest_auth": {
+      "username": "rajeshraasamalla",
+      "access_key": "nJFDL26DMZabpUz6L70ccmqX3lMtXJl2XKujpPTqqs8TbzPtLf"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "LambdaTest-Rajesh",
+      "parallels": 2,
+      "specs": "**/*.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "9.6"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
